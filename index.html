@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo-list-project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="todo-list">
+        <div class="todo-list__header">
+            <div class="header__content">
+                <h1 class="header__title">Daily UI Todo list</h1>
+                <p class="header__para">practice coding everyday</p>
+            </div>
+            <div>
+                <div class="avatar-wrapper">
+                    <img src="./assets/avtar.jpg" class="avatar">
+
+                </div>
+            </div>
+        </div>
+        
+        <div class="todo-list__content">
+            <ol class="list">
+                <li class="list-item">
+                    <input class="list-item__checkbox" id="item1"type="checkbox">
+                    <label class="list-item__label" for="item1">check email</label>
+                </li>
+                <li class="list-item">
+                    <input class="list-item__checkbox" id="item2"type="checkbox">
+                    <label class="list-item__label" for="item2">check email</label>
+                </li>
+                <li class="list-item">
+                    <input class="list-item__checkbox" id="item3"type="checkbox">
+                    <label class="list-item__label" for="item3">check email</label>
+                </li>
+            </ol>
+        </div>
+        
+
+
+        <div>
+            <button class="todo-list__btn">+</button>
+            <input class="todo-list__input"type="text" placeholder="New Task">
+            
+        </div>
+    </div>
+
+
+    <script src="./app.js"></script>
+
+</body>
+
+</html>
